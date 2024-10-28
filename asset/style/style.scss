@@ -6,7 +6,30 @@
     
 }
 body { 
+    position: relative;
     width: 100%;
-    height: 6861px;
-    background-color: rgba($color: #222021, $alpha: 1.0);
+    min-height: 6861px;
+    background-color: #222021;
+
+    
+    
+}
+.svg-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1441px;
+    min-height: 6861px;
+    
+    z-index: -1; /* Place les SVG derrière le contenu */
+    .backsvg{
+        position: absolute;
+    }
+    .bottom1{
+        top: 6133.31px;
+    }
+    .left1{
+        top: 524.79px;
+        left: 623.73px;
+    }
 }
