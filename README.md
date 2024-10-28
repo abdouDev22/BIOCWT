@@ -1,9 +1,5 @@
 # BIOCWT
 
-This repository is a simple integration of a public Figma mockup for a wood product services website, built with HTML and SCSS.
-
-## Project Overview
-
 This project aims to translate the design elements of the Figma mockup into a static web page using HTML for structure and SCSS for styling. It focuses on accurately replicating the visual layout and style.
 
 ## Getting Started
