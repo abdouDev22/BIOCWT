@@ -29,8 +29,3 @@ To view and edit the project locally, follow these steps:
 ## Figma Design
 
 The original mockup can be found [here](https://www.figma.com/design/A9NqfQ17JNLZ8wAd6N4AxI/wood-product-services-website-(Community)?m=auto&t=lH470GpJzD5FyZm3-6).
-
----
-
-Feel free to contribute by creating a pull request or opening an issue to suggest improvements.
-```
