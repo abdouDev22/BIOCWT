@@ -11,7 +11,7 @@ To view and edit the project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone [repository URL]
+   git clone https://github.com/abdouDev22/BIOCWT.git
 ## Navigate to the project folder:
 bash
 Copier le code
