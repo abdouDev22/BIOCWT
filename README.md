@@ -1,2 +1,24 @@
 # BIOCWT
 Integration of a public Figma mockup for a wood product services website using HTML and SCSS.
+
+## Project Overview
+
+This project aims to translate the design elements of the Figma mockup into a static web page using HTML for structure and SCSS for styling. It focuses on accurately replicating the visual layout and style.
+
+## Getting Started
+
+To view and edit the project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [repository URL]
+## Navigate to the project folder:
+bash
+Copier le code
+cd wood-product-services-website
+Open the index.html file in your browser: Simply open the HTML file in your preferred web browser to see the layout.
+## Technologies Used
+HTML - Markup language for creating the structure of the page.
+SCSS - CSS preprocessor for styling and easier code management.
+## Figma Design
+The original mockup can be found here.
