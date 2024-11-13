@@ -1,0 +1,37 @@
+$color-text: #F5F5F5;
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espace entre la logo et la liste */
+    position: relative;
+    height: 124px;
+    width: 100%;
+    .logo {
+        display: flex;
+        position: relative;
+        top: 0px;
+        left: 5vw;
+        width: 50px; /* Largeur de l'élément logo */
+        height: 50px; /* Hauteur de l'élément logo */
+
+    }
+    #navbar{
+        position: relative;
+        left: -5vw;
+        display: flex;
+        font-weight: bold;
+        font-size: 2vw;
+        color: $color-text;
+        width: auto;
+        height: auto;
+        li {
+            display: inline;
+            margin-left: 56px; /* Espace entre les éléments de la liste */
+            a {
+                width: 74.98px;
+                height: 30px;
+            }
+        }
+    }
+    
+}

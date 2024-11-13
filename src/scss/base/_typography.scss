@@ -1,0 +1,43 @@
+$color-text: #F5F5F5;
+
+@font-face {
+    font-family: 'KyivType Sans';
+    src: url('../fonts/KyivTypeSans-Medium-.otf') format('otf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter_18pt-Regular.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+
+$font-family-primary: 'KyivType Sans', sans-serif;
+$font-family-secondary: 'Inter', sans-serif;
+
+
+$font-weight-medium: 500;
+$font-weight-regular: 400;
+$font-size-title: 4.69vw; 
+$font-size-text: 1.56vw;  
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-primary;
+    font-weight: $font-weight-medium;
+    font-size: $font-size-title;
+    color: $color-text; 
+  }
+
+
+p, span {
+    font-family: $font-family-secondary;
+    font-weight: $font-weight-regular;
+    font-size: $font-size-text;
+    color: $color-text;
+  }
