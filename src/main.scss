@@ -1,0 +1,71 @@
+@use '@/scss/abstracts/variables';
+@use './scss/abstracts/mixins';
+@use './scss/abstracts/functions';
+
+// Base styles
+@use './scss/base/reset';
+@use './scss/base/typography';
+@use './scss/base/base';
+@use './scss/base/elements';
+@use './scss/base/utilities';
+@use './scss/base/animations';
+
+// Components
+@use './scss/components/button';
+@use './scss/components/card';
+@use './scss/components/navbar';
+
+// Layouts
+@use './scss/layouts/header';
+@use './scss/layouts/footer';
+@use './scss/layouts/grid';
+
+// Themes
+@use './scss/themes/themes';
+
+// Pages
+@use './scss/pages/home';
+@use './scss/pages/about';
+@use './scss/pages/contact';
+
+
+body { 
+  position: relative;
+  width: 100%;
+  min-height: 6861px;
+  background-color: #222021;
+  background-image: 
+  url("img/Vector 21.svg"),
+  url("img/Vector 22.svg"),
+  url("img/Vector 23.svg"),
+  url("img/Vector 24.svg"),
+  url("img/Vector 25.svg"),
+  url("img/Vector 26.svg"),
+  url("img/Vector 27.svg"),
+  url("img/Vector 28.svg"),
+  url("img/Vector 29.svg"),
+  url("img/Vector 30.svg"),
+  url("img/Vector 31.svg"),
+  url("img/Vector 32.svg"),
+  url("img/Vector 33.svg"),
+  url("img/Vector 34.svg"),
+  url("img/Vector 36.svg");;
+  background-repeat: no-repeat;
+  background-position: 
+      0px 0px,
+      0px 0px,
+      16.38px 0,
+      16.38px 0px,
+      0px 0px,
+      63.89px 0px,
+      0px 6133.31px,
+      524.79px 623.73px,
+      846.1px 1143.51px,
+      466.76px 3430.5px,
+      650.27px 4054.23px,
+      823.77px 4677.96px,
+      1013.58px 5145.74px,
+      1179px 5613.53px,
+      1391.87px 6860.99px;
+  background-size: auto;
+}
