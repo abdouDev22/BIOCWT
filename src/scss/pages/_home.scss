@@ -1,3 +1,4 @@
+@use '../layouts/theWoodWeWorkWith.scss';
 $color-black:#1E0C06;
 $light-gray-transparent: rgba(245, 245, 245, 0.07);
 
@@ -30,13 +31,20 @@ $light-gray-transparent: rgba(245, 245, 245, 0.07);
 
     }
     .title{
+        position: relative;
+        top:75px;
+        left: 50px;
         width: 322px;
         height: 321px;
         font-size: 90px;
         margin: 0;
         text-transform: uppercase;
     }
+    
     .subtitle{
+        position: absolute;
+        top: 418px;
+        left: 62px;
         margin: 0;
         color: #FFDBBB;
         font-size: 30px;
@@ -46,7 +54,13 @@ $light-gray-transparent: rgba(245, 245, 245, 0.07);
             font-weight: bold;
         }
     }
+    .subtitle:nth-of-type(2){
+        top: 458px;
+    }
     .Order{
+        position: absolute;
+        left: 50px;
+        top: 554px;
         display: block;
         text-align: center;
         font-size: 30px;
@@ -66,4 +80,30 @@ $light-gray-transparent: rgba(245, 245, 245, 0.07);
         height: 200px;
         border-radius: 42px;
     }
+    .img:nth-of-type(2){
+        position: absolute;
+        top: 316px;
+        left: 680px;
+        width: 200px;
+        height: 200px;
+        border-radius: 42px;
+    }
+    .img:nth-of-type(3){
+        position: absolute;
+        top: 452px;
+        left: 925px;
+        width: 200px;
+        height: 200px;
+        border-radius: 42px;
+    }
+}
+.title{
+    position: absolute;
+    top:1346px;
+    left: 243px;
+    width: 746px;
+    height: 230px;
+    font-size: 90px;
+    margin: 0;
+    text-transform: uppercase;
 }

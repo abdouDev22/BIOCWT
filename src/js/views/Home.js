@@ -1,4 +1,6 @@
 import { Header } from '../components/Header.js'
+import { theWoodWeWorkWith } from '../components/theWoodWeWorkWith.js'
+import { createImageElement } from '../components/createImageElement.js'
 
 export function Home() {
     // Create a container element to return
@@ -6,11 +8,9 @@ export function Home() {
     
     // Add Header to container instead of body
     container.appendChild(Header());
-
-
-   
     container.appendChild(firstElement());
-
+    
+    container.appendChild(theWoodWeWorkWith());
     
     // Return the container node
     return container;
@@ -40,14 +40,9 @@ function firstElement () {
     a.href = "#";
     div.appendChild(a);
 
-    const img = document.createElement("img");
-    img.classList.add("img");
-    img.src = "./src/img/element1_img1.jpg";
-    div.appendChild(img);
-
-    const img2 = document.createElement("img");
-    img2.classList.add("img");
-    img2.src = "./src/img/element1_img2.jpg";
-    div.appendChild(img2);
+    div.appendChild(createImageElement("./src/img/element1_img1.jpg"));
+    div.appendChild(createImageElement("./src/img/element1_img2.jpg"));
+    div.appendChild(createImageElement("./src/img/element1_img3.jpg"));
     return div;
 }
+
