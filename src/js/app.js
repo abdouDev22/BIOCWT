@@ -1,6 +1,9 @@
-import { Navbar } from './components/navbar.js';
+import { router } from './router.js';
 
 
 export function initApp() {
-  Navbar();
+  window.addEventListener("hashchange", router);
+  router();
+
+  
 }
