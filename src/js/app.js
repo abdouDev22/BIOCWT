@@ -1,6 +1,6 @@
-import { initNavbar } from './components/navbar.js';
+import { Navbar } from './components/navbar.js';
 
 
 export function initApp() {
-  initNavbar();
+  Navbar();
 }

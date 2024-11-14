@@ -1,11 +1,13 @@
 $color-text: #F5F5F5;
+$color-black:#1E0C06;
 header {
     display: flex;
     align-items: center;
     justify-content: space-between; /* Espace entre la logo et la liste */
-    position: relative;
+    position: fixed;
     height: 124px;
     width: 100%;
+    transition: all 0.2s ease;
     .logo {
         display: flex;
         position: relative;
@@ -34,4 +36,8 @@ header {
         }
     }
     
+}
+.navbar-scrolled{
+    background-color: $color-black;
+    border-radius: 0px 0px 70px 70px;
 }
