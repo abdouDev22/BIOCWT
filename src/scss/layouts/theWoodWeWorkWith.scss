@@ -3,5 +3,64 @@
     top: 1256px;
     width: 100%;
     height: 1020px;
-    background-color: azure;
+
+    .title{
+        position: relative;
+        left: 243px;
+        width: 746px;
+        height: 230px;
+        font-size: 90px;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    .content{
+        position: relative;
+        top: 127px;
+        left: 126px;
+        margin: 0;
+        width: 277px;
+        height: 560px;
+        .img{
+            position: relative;
+            margin: 0;
+            border-radius: 42px;
+        }
+        .titleh4{
+            position: relative;
+            font-size: 30px;
+            font-weight:bold;
+            margin: 39px;
+            margin-left: 80px;
+        }
+        ul{
+            position: relative;
+            font-size: 30px;
+            font-weight:500;
+            margin: 0px;
+            width: 277px;
+            li{
+                margin-bottom: 30px;
+                .h{
+                    display: inline-block;
+                    width: 25px;
+                    height: 25px;
+                    background-image: url('@/img/twemoji_check-mark.svg');
+                    background-size: auto;
+                    background-repeat: no-repeat;
+                    margin-right: 10px;
+                }
+                .c{
+                    display: inline-block;
+                    width: 25px;
+                    height: 25px;
+                    background-image: url('@/img/maki_cross.svg');
+                    background-size: auto;
+                    background-repeat: no-repeat;
+                    margin-right: 10px;
+                }
+
+            }
+        }
+    }
+
 }
