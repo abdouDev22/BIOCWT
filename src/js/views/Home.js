@@ -1,6 +1,7 @@
 import { Header } from '../components/Header.js'
 import { theWoodWeWorkWith } from '../components/theWoodWeWorkWith.js'
 import { createImageElement } from '../components/createImageElement.js'
+import {ourWork} from "../components/ourWork.js";
 
 export function Home() {
     // Create a container element to return
@@ -11,6 +12,7 @@ export function Home() {
     container.appendChild(firstElement());
     
     container.appendChild(theWoodWeWorkWith());
+    container.appendChild(ourWork());
     
     // Return the container node
     return container;
@@ -45,4 +47,3 @@ function firstElement () {
     div.appendChild(createImageElement("./src/img/element1_img3.jpg"));
     return div;
 }
-

@@ -1,0 +1,80 @@
+.ourWork{
+  position: absolute;
+  top: 2519px;
+  left: 40px;
+  width: 1350px;
+  height: 1120px;
+  .title{
+    margin: 121px;
+    font-size: 90px;
+    font-weight: 500;
+    width: 532px;
+    height: 120px;
+  }
+  .carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    width: 1200px;
+    height: 806px;
+    z-index: 30;
+    .images{
+      width: 1030px;
+      height: 754px;
+      border-radius: 42px;
+      overflow: hidden;
+    }
+    .navigation-dots{
+      position: absolute;
+      top: 102%;
+      left: 42%;
+      display: flex;
+      flex-direction: row;
+      width: 114px;
+      height: 26px;
+      .dot{
+        display: block;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: transparent;
+        border: 3px solid #728BAD;
+        margin-left: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+      }
+      .active{
+        background-color: #D5DCEE;
+      }
+    }
+    .iconoir_arrow_left{
+      display: block;
+      margin-top: 30%;
+      width: 100px;
+      height: 100px;
+      order: -1;
+      cursor: pointer;
+      background-image: url("@/img/iconoir_arrow-left.svg");
+      background-size: auto;
+      background-repeat: no-repeat;
+
+    }
+    .iconoir_arrow_right{
+      display: block;
+      margin-top: 30%;
+      margin-left: 2%;
+      width: 100px;
+      height: 100px;
+      order: 1;
+
+      background-image: url("@/img/Frame 3.svg");
+      background-size: auto;
+      background-repeat: no-repeat;
+      cursor: pointer;
+
+    }
+
+  }
+}

@@ -1,9 +1,8 @@
 .theWoodWeWorkWith{
     position: absolute;
     top: 1256px;
-    width: 100%;
+    width: 1400px;
     height: 1020px;
-
     .title{
         position: relative;
         left: 243px;
@@ -13,11 +12,14 @@
         margin: 0;
         text-transform: uppercase;
     }
+    .surcontent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
     .content{
-        position: relative;
-        top: 127px;
-        left: 126px;
         margin: 0;
+        margin-top: 127px;
         width: 277px;
         height: 560px;
         .img{
@@ -62,5 +64,7 @@
             }
         }
     }
-
+    .content1{
+        margin-left: 50px;
+    }
 }

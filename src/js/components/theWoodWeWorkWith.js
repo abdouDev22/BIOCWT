@@ -6,21 +6,30 @@ export function theWoodWeWorkWith (){
     title.classList.add("title");
     title.textContent = "THE WOOD WE WORK WITH";
 
+    const surcontent= document.createElement("div");
+    surcontent.classList.add("surcontent");
 
-    div.appendChild(title);
-    div.appendChild(createContent("Oak",
+    surcontent.appendChild(createContent("content1","Oak",
         ["Durability", "Beautiful texture", "Water resistance", "Expensive"],
         "./src/img/old-wood-grain-background 2.jpg",["h", "h", "h", "c"]));
+    surcontent.appendChild(createContent("content2","Buk",
+        ["Durability", "Hard to handle"],
+        "./src/img/wood-texture-design-decoration 1.jpg",["h", "c"]));
+    surcontent.appendChild(createContent("content3","Ash",
+        ["Durability", "Hard to handle"],
+        "./src/img/pale-oak-wood-texture-design-background 1.jpg",["h", "c"]));
 
-
+    div.appendChild(title);
+    div.appendChild(surcontent);
+    
     return div
 }
 import { createImageElement } from '../components/createImageElement.js'
 
 
-function createContent(title, listItems, imagePath, types) {
+function createContent(classList, title, listItems, imagePath, types) {
     const content = document.createElement("div");
-    content.classList.add("content");
+    content.classList.add("content", classList);
 
     const titleh4 = document.createElement("h4");
     titleh4.classList.add("titleh4");
