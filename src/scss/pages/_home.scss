@@ -1,0 +1,100 @@
+@use '../layouts/theWoodWeWorkWith.scss';
+@use '../layouts/ourWork.scss';
+$color-black:#1E0C06;
+$light-gray-transparent: rgba(245, 245, 245, 0.07);
+
+.background_home{
+    width: 908px;
+    height: 1080px;
+}
+.first_element{
+    position: relative;
+    top: 218px;
+    left: 201px;
+    width: 1200px;
+    height: 714px;
+    background-color: $color-black;
+    border-top-left-radius: 43px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 43px;
+    -webkit-box-shadow: 0px 4px 54px 0px $light-gray-transparent;
+    -moz-box-shadow: 0px 4px 54px 0px $light-gray-transparent;
+    box-shadow: 0px 4px 54px 0px $light-gray-transparent;
+    &::before{
+        content: "";
+        position: absolute;
+        top: 43px;
+        left: 634px;
+        width: 1px;
+        height: 511px;
+        background-color: #F5F5F5;
+
+    }
+    .title{
+        position: relative;
+        top:75px;
+        left: 50px;
+        width: 322px;
+        height: 321px;
+        font-size: 90px;
+        margin: 0;
+        text-transform: uppercase;
+    }
+    
+    .subtitle{
+        position: absolute;
+        top: 418px;
+        left: 62px;
+        margin: 0;
+        color: #FFDBBB;
+        font-size: 30px;
+        width: 322px;
+        span{
+            color: #FFDBBB;
+            font-weight: bold;
+        }
+    }
+    .subtitle:nth-of-type(2){
+        top: 458px;
+    }
+    .Order{
+        position: absolute;
+        left: 50px;
+        top: 554px;
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: #F5F5F5;
+        background-color: #728BAD;
+        border-radius: 42px;
+        width: 225px;
+        height: 58px;
+        padding: 10px;
+    }
+    .img{
+        position: absolute;
+        top: 43px;
+        left: 925px;
+        width: 200px;
+        height: 200px;
+        border-radius: 42px;
+    }
+    .img:nth-of-type(2){
+        position: absolute;
+        top: 316px;
+        left: 680px;
+        width: 200px;
+        height: 200px;
+        border-radius: 42px;
+    }
+    .img:nth-of-type(3){
+        position: absolute;
+        top: 452px;
+        left: 925px;
+        width: 200px;
+        height: 200px;
+        border-radius: 42px;
+    }
+}
