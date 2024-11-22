@@ -3,24 +3,35 @@
 $color-black:#1E0C06;
 $light-gray-transparent: rgba(245, 245, 245, 0.07);
 
-.background_home{
-    width: 908px;
-    height: 1080px;
+body{
+    background-image: url("@/img/background_home.svg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.parent{
+    position: absolute;
+    margin-top: 228px;
+    height: 714px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #F5F5F5;
+    overflow: hidden;
 }
 .first_element{
     position: relative;
-    top: 218px;
-    left: 201px;
-    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    width: 87.55vw;
     height: 714px;
     background-color: $color-black;
     border-top-left-radius: 43px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
     border-bottom-left-radius: 43px;
-    -webkit-box-shadow: 0px 4px 54px 0px $light-gray-transparent;
-    -moz-box-shadow: 0px 4px 54px 0px $light-gray-transparent;
-    box-shadow: 0px 4px 54px 0px $light-gray-transparent;
+    -webkit-box-shadow: 0 4px 54px 0 $light-gray-transparent;
+    -moz-box-shadow: 0 4px 54px 0 $light-gray-transparent;
+    box-shadow: 0 4px 54px 0 $light-gray-transparent;
     &::before{
         content: "";
         position: absolute;
@@ -31,19 +42,28 @@ $light-gray-transparent: rgba(245, 245, 245, 0.07);
         background-color: #F5F5F5;
 
     }
+    .flex1{
+        background-color: #61ff51;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .flex2{
+        background-color: #ff544d;
+        width: 50%;
+        height: 100%;
+    }
     .title{
-        position: relative;
-        top:75px;
-        left: 50px;
+        margin: 10px 50px 10px;
         width: 322px;
         height: 321px;
         font-size: 90px;
-        margin: 0;
         text-transform: uppercase;
     }
-    
+
     .subtitle{
-        position: absolute;
+
         top: 418px;
         left: 62px;
         margin: 0;
@@ -59,7 +79,6 @@ $light-gray-transparent: rgba(245, 245, 245, 0.07);
         top: 458px;
     }
     .Order{
-        position: absolute;
         left: 50px;
         top: 554px;
         display: block;

@@ -1,24 +1,17 @@
 body {
-    position: relative;
-    width: 100%;
+    width: calc(100vw - 100px);
     min-height: 6861px;
+    margin: 0;
     background-color: #222021;
-    background-image: url("@/img/background_home.svg");
-    background-size: auto;
-    background-repeat: no-repeat;
 }
 
 .background-container {
     position: absolute;
-    /* Pour qu'elle reste en place même pendant le scroll */
     top: 0;
     left: 0;
     width: 1400px;
-    /* Largeur de la fenêtre */
     height: 6861px;
-    /* Hauteur de la fenêtre */
     z-index: 10;
-    /* Place la div en arrière-plan */
     background-image:
         url("@/img/Vector 21.svg"),
         url("@/img/Vector 22.svg"),
@@ -38,13 +31,13 @@ body {
     ;
     background-repeat: no-repeat;
     background-position:
-        0px 0px,
-        0px 0px,
+        0 0,
+        0 0,
         16.38px 0,
-        16.38px 0px,
-        0px 0px,
-        63.89px 0px,
-        0px 6133.31px,
+        16.38px 0,
+        0 0,
+        63.89px 0,
+        0 6133.31px,
         524.79px 623.73px,
         846.1px 1143.51px,
         466.76px 3430.5px,

@@ -2,47 +2,32 @@ $color-text: #F5F5F5;
 $color-black:#1E0C06;
 $light-gray-transparent: rgba(245, 245, 245, 0.07);
 header {
+    position: fixed;
+    top: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Espace entre la logo et la liste */
-    position: fixed;
+    justify-content: space-between;
     height: 124px;
-    width: 100%;
-    border-radius: 0px 0px 70px 70px;
+    width: 100vw;
+    border-radius: 0 0 70px 70px;
     transition: all 0.2s ease;
     .logo {
-        display: flex;
-        position: relative;
-        top: 0px;
-        left: 5vw;
-        width: 50px; /* Largeur de l'élément logo */
-        height: 50px; /* Hauteur de l'élément logo */
-
+        margin-left: 60px;
     }
     #navbar{
-        position: relative;
-        left: -5vw;
-        display: flex;
+        margin-right: 60px;
         font-weight: bold;
-        font-size: 2vw;
         color: $color-text;
-        width: auto;
-        height: auto;
         li {
             display: inline;
-            margin-left: 56px; /* Espace entre les éléments de la liste */
-            a {
-                width: 74.98px;
-                height: 30px;
-            }
+            margin-left: 56px;
         }
     }
-    
 }
 .navbar-scrolled{
     background-color: $color-black;
-    -webkit-box-shadow: 0px 4px 54px 0px $light-gray-transparent;
-    -moz-box-shadow: 0px 4px 54px 0px $light-gray-transparent;
-    box-shadow: 0px 4px 54px 0px $light-gray-transparent;
+    -webkit-box-shadow: 0 4px 54px 0 $light-gray-transparent;
+    -moz-box-shadow: 0 4px 54px 0 $light-gray-transparent;
+    box-shadow: 0 4px 54px 0 $light-gray-transparent;
     z-index: 40;
 }
